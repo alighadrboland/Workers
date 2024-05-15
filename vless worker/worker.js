@@ -661,7 +661,7 @@ async function handleUDPOutBound(webSocket, vlessResponseHeader, log) {
 function getVLESSConfig(userID, hostName) {
 	const wvlessws = `vless://${userID}\u0040www.visa.com.sg:8880?encryption=none&security=none&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#${hostName}`;
 	const pvlesswstls = `vless://${userID}\u0040www.visa.com.sg:8443?encryption=none&security=tls&type=ws&host=${hostName}&sni=${hostName}&fp=random&path=%2F%3Fed%3D2560#${hostName}`;
-       const note = `Don't forget \nSHΞЯVIN™\nyosef ghobadi\nsegaro\n\n\nProxyIP：${proxyIP}`;
+       const note = `Don't forget \n\n   SHΞЯVIN™\n\n  yosef ghobadi\n\n  segaro\n\n\nProxyIP：${proxyIP}`;
 	if (hostName.includes('pages.dev')) {
     return `
 =================ÐΛɌ₭ᑎΞ𐒡𐒡=================
