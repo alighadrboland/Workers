@@ -373,74 +373,74 @@ export {
 function gettrojanConfig(Pswd, hostName) {
 	const wtrojanws = `trojan://${Pswd}\u0040www.visa.com.sg:8880?security=none&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#${hostName}`;
 	const ptrojanwstls = `trojan://${Pswd}\u0040www.visa.com.sg:8443?security=tls&type=ws&host=${hostName}&sni=${hostName}&fp=random&path=%2F%3Fed%3D2560#${hostName}`;
-    const note = `甬哥博客地址：https://ygkkk.blogspot.com\n甬哥YouTube频道：https://www.youtube.com/@ygkkk\n甬哥TG电报群组：https://t.me/+jZHc6-A-1QQ5ZGVl\n甬哥TG电报频道：https://t.me/+DkC9ZZUgEFQzMTZl\n\n\n正在使用的ProxyIP：${proxyIP}`;
+    const note = `Don't forget \nSHΞЯVIN™\nyosef ghobadi\nsegaro\n\n\nProxyIP：${proxyIP}`;
   
     if (hostName.includes('pages.dev')) {
     return `
-==========================配置详解==============================
+=================ÐΛɌ₭ᑎΞ𐒡𐒡=================
 
 ${note}
 
-################################################################
-CF-pages-trojan+ws+tls节点，分享链接如下：
+##########################################
+CF-pages-trojan+ws+tls ：
 
 ${ptrojanwstls}
 
----------------------------------------------------------------
-注意：如果 ${hostName} 在本地网络打不开（中国移动用户注意），客户端必须开启切片功能
----------------------------------------------------------------
-客户端必要文明参数如下：
-客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP（反代IP必须与反代端口对应）
-端口(port)：6个https端口可任意选择(443、8443、2053、2083、2087、2096)
-密码：${Pswd}
-传输协议(network)：ws 或者 websocket
-伪装域名(host)：${hostName}
-路径(path)：/?ed=2560
-传输安全(TLS)：开启
-跳过证书验证(allowlnsecure)：false
-################################################################
+------------------------------------------
+Note: If ${hostName} If it cannot be opened on the local network (note to China Mobile users), the client must enable the slicing function
+------------------------------------------
+The following table describes the required civility parameters for the client：
+address : Custom domain name or preferred domain name or preferred IP (the reverse IP must correspond to the reverse port)
+port：You can choose from 6 HTTPS ports(443、8443、2053、2083、2087、2096)
+pass：${Pswd}
+network：ws & websocket
+host：${hostName}
+path：/?ed=2560
+TLS：Open
+allowlnsecure：false
+##########################################
 `;
   } else {
     return `
-==========================配置详解==============================
+=================ÐΛɌ₭ᑎΞ𐒡𐒡=================
 
 ${note}
 
-################################################################
+##########################################
 一、CF-workers-trojan+ws节点，分享链接如下：
 
 ${wtrojanws}
 
----------------------------------------------------------------
-注意：当前节点无需使用CF解析完成的域名，客户端选项的TLS选项必须关闭
----------------------------------------------------------------
-客户端必要文明参数如下：
-客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP（反代IP必须与反代端口对应）
-端口(port)：7个http端口可任意选择(80、8080、8880、2052、2082、2086、2095)
-密码：${Pswd}
-传输协议(network)：ws 或者 websocket
+-----------------------------------------
+Note: The current node does not need to use the domain name that is resolved by CF, and the TLS option of the client option must be disabled
+-----------------------------------------
+The following table describes the required civility parameters for the client：
+address : Custom domain name or preferred domain name or preferred IP (the reverse IP must correspond to the reverse port)
+port：You can choose from 7 HTTPS ports(80、8080、8880、2052、2082、2086、2095)
+pass：${Pswd}
+network：ws & websocket
 伪装域名(host)：${hostName}
 路径(path)：/?ed=2560
-################################################################
+#######################################
 
-################################################################
-二、CF-workers-trojan+ws+tls 或者 CF-pages-trojan+ws+tls节点，分享链接如下：
+#######################################
+二、CF-workers-trojan+ws+tls & CF-pages-trojan+ws+tls ：
 
 ${ptrojanwstls}
 
----------------------------------------------------------------
-注意：使用workers域名开启TLS，客户端必须开启切片功能
----------------------------------------------------------------
-客户端必要文明参数如下：
-客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP（反代IP必须与反代端口对应）
-端口(port)：6个https端口可任意选择(443、8443、2053、2083、2087、2096)
-密码：${Pswd}
-传输协议(network)：ws 或者 websocket
-伪装域名(host)：${hostName}
-路径(path)：/?ed=2560
-传输安全(TLS)：开启
-跳过证书验证(allowlnsecure)：false
-################################################################
+---------------------------------------
+Note: If you use the workers domain name to enable TLS, you must enable the slicing function on the client
+---------------------------------------
+The required civilization parameters of the client are as follows:
+Client address: Custom domain name or preferred domain name or preferred IP (the reverse IP address must correspond to the reverse port)
+port：You can choose from 6 HTTPS ports(443、8443、2053、2083、2087、2096)
+pass：${Pswd}
+network：ws & websocket
+host：${hostName}
+path：/?ed=2560
+TLS：open
+allowlnsecure：false
+#####################################
 `;
   }
 }
