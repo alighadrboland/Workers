@@ -407,7 +407,7 @@ allowlnsecure：false
 ${note}
 
 ##########################################
-一、CF-workers-trojan+ws节点，分享链接如下：
+一、CF-workers-trojan+ws ：
 
 ${wtrojanws}
 
@@ -419,8 +419,8 @@ address : Custom domain name or preferred domain name or preferred IP (the rever
 port：You can choose from 7 HTTPS ports(80、8080、8880、2052、2082、2086、2095)
 pass：${Pswd}
 network：ws & websocket
-伪装域名(host)：${hostName}
-路径(path)：/?ed=2560
+host：${hostName}
+path：/?ed=2560
 #######################################
 
 #######################################
