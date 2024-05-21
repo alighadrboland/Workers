@@ -5,8 +5,8 @@
 
 
 
-
-## AFTER DEPLOY CLICK  WORKER.DEV And Do It This Way
+> [!TIP]
+> ## AFTER DEPLOY CLICK  WORKER.DEV And Do It This Way
 > ### https://xxxx.workers.dev/ Your UUID /sb
-#### XXXX Your worker name
+> #### XXXX Your worker name
 
