@@ -61,7 +61,7 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
 
 > ### Finally, copy the code in the add from clipboard to hiddify next program
 
-> ## 👨‍💻Json Above Code [![Badge](https://v4db7toi06wj.runkit.sh)](https://github.com/mansor427/workers/blob/main/WoW.json)
+> ## 👨‍💻Json Above Code [![Badge](https://8kckxn36n9sp.runkit.sh)](https://github.com/mansor427/workers/blob/main/WoW.json)
 ---
 > ### Convert to mini json ==> [![Badge](https://v4db7toi06wj.runkit.sh)](https://jsonformatter.org/json-minify)
 ---
