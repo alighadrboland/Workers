@@ -63,6 +63,6 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
 
 > ## 👨‍💻[Json Above Code](https://github.com/mansor427/workers/blob/main/WoW.json)
 ---
-> ### Convert to mini json ==> [minijson](https://jsonformatter.org/json-minify)
+> ### Convert to mini json ==> [![Badge](https://v4db7toi06wj.runkit.sh)](https://jsonformatter.org/json-minify)
 ---
 > credit converter ==> [ptechgithub](https://github.com/Ptechgithub/abzar)
