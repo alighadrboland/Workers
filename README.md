@@ -56,9 +56,11 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
   ]
 }
 ```
+
+
 Finally, copy the code in the add from clipboard to hiddify next program
 
-
+> ## 👨‍💻[Json Above Code](https://github.com/mansor427/workers/blob/main/WoW.json)
 
 
 ---
