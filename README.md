@@ -5,7 +5,7 @@ hiddify next config
   [
     {
       "type": "wireguard",
-      "tag": "Warp-IR",
+      "tag": "maansor427•🇮🇷",
       "server": "162.159.195.93",
       "server_port": 2506,
 
@@ -22,7 +22,7 @@ hiddify next config
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main",
+      "tag": "ÐΛɌ₭ᑎΞ𐒡𐒡•🇩🇪",
       "detour": "Warp-IR",
       "server": "162.159.195.93",
       "server_port": 2506,
