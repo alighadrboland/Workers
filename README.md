@@ -1,11 +1,26 @@
-hiddify next config 
+> # hiddify next config
+[![Hiddify](https://img.shields.io/badge/Download-Hiddify-cyan?style=plastic)](https://github.com/hiddify/hiddify-next)
+
+
+> [!NOTE]
+> ### The code below in run to Thermox
+> #### gives you the 3 parameter
+
+```bash
+curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=never '"2606:4700:[0-9a-f:]+/128"|"private_key":"[0-9a-zA-Z\/+]+="|"reserved":\[[0-9]+(,[0-9]+){2}\]'
 ```
+---
+
+> [!NOTE]
+> ### Paste the values ​​obtained in the above code into the below json script
+> #### Convert Reversed Decimal to Base64 and ==> [Reversed Converter](https://ptechgithub.github.io/abzar)
+```json
 {
   "outbounds": 
   [
     {
       "type": "wireguard",
-      "tag": "maansor427•🇮🇷",
+      "tag": "Warp-IR",
       "server": "162.159.195.93",
       "server_port": 2506,
 
@@ -22,7 +37,7 @@ hiddify next config
     },
     {
       "type": "wireguard",
-      "tag": "ÐΛɌ₭ᑎΞ𐒡𐒡•🇩🇪",
+      "tag": "ÐΛɌ₭ᑎΞ𐒡𐒡🇩🇪",
       "detour": "Warp-IR",
       "server": "162.159.195.93",
       "server_port": 2506,
@@ -41,3 +56,10 @@ hiddify next config
   ]
 }
 ```
+Finally, copy the code in the add from clipboard to hiddify next program
+
+
+
+
+---
+> credit converter [ptechgithub](https://github.com/Ptechgithub/abzar)
