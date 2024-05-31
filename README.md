@@ -1,6 +1,7 @@
 > # hiddify next config
 [![Hiddify](https://img.shields.io/badge/Download-Hiddify-cyan?style=plastic)](https://github.com/hiddify/hiddify-next)
 
+[![Termux](https://img.shields.io/badge/Download-Termux-orange?style=plastic)](https://github.com/termux/termux-app/releases/tag/v0.118.0)
 
 > [!NOTE]
 > ### The code below in run to Thermox
